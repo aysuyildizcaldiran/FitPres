@@ -43,8 +43,11 @@ App = () => {
       <Tab.Navigator
         screenOptions={{
           headerShown: false,
+          tabBarStyle: {
+            backgroundColor: '#323131',
+          },
         }}>
-        <Tab.Screen 
+        <Tab.Screen
           name="DailyFlow"
           component={DailyFlow}
           options={{
